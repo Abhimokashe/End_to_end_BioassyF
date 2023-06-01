@@ -1,0 +1,278 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+#df_362red_train:
+df_362r:
+  filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID362red_train.csv.zip
+  type: pandas.CSVDataSet
+  layer : raw
+
+#df_362red_test:
+df_362r_t:
+  filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID362red_test.csv
+  type: pandas.CSVDataSet
+  layer : raw
+
+#df_373_439red_train:
+df_373_439r:
+   filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID373AID439red_train.csv.zip
+   type: pandas.CSVDataSet
+   layer: raw
+
+#df_373red_train:
+df_373_439r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID373AID439red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_373red_test:
+df_373r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID362red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+df_373r_t:
+      filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID373red_test.csv.zip
+      type: pandas.CSVDataSet
+      layer: raw
+
+#df_439morered_train:
+df_439mr:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID439Morered_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+     
+#df_439morered_test:
+df_439mr_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID439Morered_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_439red_train:
+df_439r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID439red_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_439red_test:
+df_439r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID439red_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_456red_train:
+df_456r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID456red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_456red_test:
+df_456r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID456red_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_604_644_allred_train:
+df_604_644r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID604AID644_AllRed_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_604_644_allred_test:
+df_604_644r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID604AID644_AllRed_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_604red_train:
+df_604r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID604red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_604red_test:
+df_604r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID604red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_644morered_train:
+df_644mr:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID644Morered_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_644morered_test:
+df_644mr_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID644Morered_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_644red_train:
+df_644r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID644red_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_644red_test:
+df_644r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID644red_test.csv.
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_687_721red_train:
+df_687_721r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID687AID721red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_687_721red_test:
+df_687_721r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID687AID721red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_687red_train:
+df_687r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID687red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_687red_test:
+df_687r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID687red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_688red_train:
+df_688r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID688red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_688red_test:
+df_688r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID688red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_721morered_train:
+df_721mr:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID721morered_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_721morered_test:
+df_721mr_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID721morered_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_721red_train:
+df_721r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID721red_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_721red_test:
+df_721r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID721red_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_746_1284red_train:
+df_746_1284r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID746AID1284red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_746_1284_test:
+df_746_1284r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID746AID1284red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_746red_train:
+df_746r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID746red_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_746red_test:
+df_746r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID746red_test.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1284morered_train:
+df_1284mr:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1284Morered_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1284morered_test:
+df_1284mr_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1284Morered_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1284red_train:
+df_1284r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1284red_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1284red_test:
+df_1284r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1284red_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1608morered_train:
+df_1608mr:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1608Morered_train.csv.zip
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1608morered_test:
+df_1608mr_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1608Morered_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1608red_train:
+df_1608r:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1608red_train.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+#df_1608red_test:
+df_1608r_t:
+     filepath: C:\Work\BIOASSY\bioassy\data\01_raw\AID1608red_test.csv
+     type: pandas.CSVDataSet
+     layer : raw
+
+# df_list_train:
+#      filepath: C:\Work\BIOASSY\bioassy\data\02_intermediate\df_list_train.json
+#      type: pandas.JSONDataSet
+#      save_args:
+#        orient: "records"
+#        lines: True
+
+list_Xn_comp:
+      filepath: C:\Work\BIOASSY\bioassy\data\02_intermediate\list_Xn_comp.pkl
+      type: pickle.PickleDataSet
+      layer: intermediate
+
+list_y_resampled:
+      filepath: C:\Work\BIOASSY\bioassy\data\02_intermediate\list_y_resampled.pkl
+      type: pickle.PickleDataSet
+      layer: intermediate
+
+df_list_names:
+      filepath: C:\Work\BIOASSY\bioassy\data\02_intermediate\df_list_names.pkl
+      type: pickle.PickleDataSet
+      layer: intermediate
+      
